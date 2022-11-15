@@ -30,8 +30,8 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudhubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
+					<cloudHubDeployment>
+						
 						<username>Demomulepractice</username>
 						<password>Demomulepractice01</password>
 						<muleVersion>4.4.0</muleVersion>
@@ -40,7 +40,7 @@
 						<workerType>Micro</workerType>
 						<applicationName>world-timezone-service</applicationName>
 						<objectStoreV2>true</objectStoreV2>
-					</cloudhubDeployment>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
