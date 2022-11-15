@@ -88,4 +88,11 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<distributionManagement>
+		<repository>
+			<id>MuleExchangeRepository</id>
+			<name>Mule Exchange Repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/51c9f28d-23b7-466f-8509-71567d07a15f/maven</url>
+		</repository>
+	</distributionManagement>
 </project>
